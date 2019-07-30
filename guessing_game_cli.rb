@@ -10,7 +10,7 @@ end
 def run_guessing_game
   computers_number = rand(6) + 1
   prompt_user
-  user_input = get_user_input
+  user_input = get_user_input.to_i
   
   if user_input == "exit"
     puts "Goodbye!"
