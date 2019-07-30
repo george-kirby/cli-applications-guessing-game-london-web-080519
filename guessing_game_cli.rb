@@ -8,7 +8,7 @@ def get_user_input
 end
 
 def run_guessing_game
-  computers_number = rand(6) + 1
+  computers_number = 1
   prompt_user
   user_input = get_user_input.to_i
   
